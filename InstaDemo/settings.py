@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'whitenoise.runserver_nostatic',
-    'Insta'
+    'Insta',
+    'rest_framework',
+    'api'
 ]
 
 MIDDLEWARE = [
